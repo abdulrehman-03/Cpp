@@ -128,7 +128,8 @@ int main() {
         if (proceed == 'n') {
             break;
         }
-	while (proceed == 'y');
     }
+    while (proceed == 'y');
+
     return 0;
 }
