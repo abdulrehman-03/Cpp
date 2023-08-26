@@ -94,16 +94,10 @@ void calc_log() {
 
 int main() {
     int choice = 0;
-    char proceed = 'y';
-    cout << "Calculation Menu\n\n";
 
-    cout << "1. Use Arithmetic Calculator\n";
-    cout << "2. Use Trigonometry Calculator\n";
-    cout << "3. Use Exponential Calculator\n";
-    cout << "4. Use Logarithmic Calculator\n\n";
-
-    while (proceed == 'y') {
+    do{
     	system("CLS");
+	cout << "Calculation Menu\n\n";
     	cout << "1. Use Arithmetic Calculator\n";
     	cout << "2. Use Trigonometry Calculator\n";
     	cout << "3. Use Exponential Calculator\n";
@@ -134,6 +128,7 @@ int main() {
         if (proceed == 'n') {
             break;
         }
+	while (proceed == 'y');
     }
     return 0;
 }
