@@ -94,6 +94,7 @@ void calc_log() {
 
 int main() {
     int choice = 0;
+    char proceed;
 
     do{
     	system("CLS");
